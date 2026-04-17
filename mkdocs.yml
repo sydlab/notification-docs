@@ -1,0 +1,56 @@
+# GitHub Pages: set site_url to https://<owner>.github.io/<repo>/ (trailing slash)
+# Project pages use /<repo>/; user/org pages differ — see README.
+site_name: Notify documentation
+site_description: Partner notification platform — onboarding, feeds, auth, technical flows
+site_url: https://example.github.io/notify-docs/
+repo_url: https://github.com/example/notify-docs
+repo_name: example/notify-docs
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: [docs]
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - mermaid2
+
+nav:
+  - Home: index.md
+  - Partner onboarding: partner-onboarding/index.md
+  - Notification setup: notification-setup/index.md
+  - Login and register: login-register/index.md
+  - Technical flows:
+      - Overview: technical-flows/index.md
+      - Level 0:
+          - System context: technical-flows/level-0/l0-system-context.md
+      - Level 1:
+          - Platform containers: technical-flows/level-1/l1-platform-containers.md
+      - Level 2:
+          - Onboarding sequence: technical-flows/level-2/l2-onboarding-sequence.md
+          - Feed setup: technical-flows/level-2/l2-feed-setup.md
+          - Login and register: technical-flows/level-2/l2-login-register.md
+
+strict: true
