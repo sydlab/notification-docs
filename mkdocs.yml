@@ -44,12 +44,12 @@ nav:
   - Technical flows:
       - Overview: technical-flows/index.md
       - Level 0:
-          - System context: technical-flows/level-0/l0-system-context.md
+          - System context: technical-flows/level-0/l0-system-context/index.md
       - Level 1:
-          - Platform containers: technical-flows/level-1/l1-platform-containers.md
+          - Platform containers: technical-flows/level-1/l1-platform-containers/index.md
       - Level 2:
-          - Onboarding sequence: technical-flows/level-2/l2-onboarding-sequence.md
-          - Feed setup: technical-flows/level-2/l2-feed-setup.md
-          - Login and register: technical-flows/level-2/l2-login-register.md
+          - Onboarding sequence: technical-flows/level-2/l2-onboarding-sequence/index.md
+          - Feed setup: technical-flows/level-2/l2-feed-setup/index.md
+          - Login and register: technical-flows/level-2/l2-login-register/index.md
 
 strict: true

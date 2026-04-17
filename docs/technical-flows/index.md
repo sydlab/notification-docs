@@ -12,13 +12,15 @@ This section holds **Mermaid** sources as `.mmd` files for the discovery phase. 
 
 Naming: use `kebab-case.mmd` and short prefixes such as `l0-`, `l1-`, `l2-` if you want sort order in file listings.
 
+Each diagram uses **one directory** containing `index.md` and its `*.mmd` file. That way `[Mermaid source](slug.mmd)` resolves correctly when MkDocs publishes `slug/index.html` (directory URLs). Putting `slug.md` next to `slug.mmd` in a parent folder breaks those links; using `../slug.mmd` from `index.md` is not a fix here—MkDocs treats `..` as the parent of the **source** path and `mkdocs build --strict` will flag missing targets.
+
 ## Diagram index
 
-- [Level 0 — system context](level-0/l0-system-context.md)
-- [Level 1 — platform containers](level-1/l1-platform-containers.md)
-- [Level 2 — onboarding sequence](level-2/l2-onboarding-sequence.md)
-- [Level 2 — feed setup](level-2/l2-feed-setup.md)
-- [Level 2 — login and register](level-2/l2-login-register.md)
+- [Level 0 — system context](level-0/l0-system-context/index.md)
+- [Level 1 — platform containers](level-1/l1-platform-containers/index.md)
+- [Level 2 — onboarding sequence](level-2/l2-onboarding-sequence/index.md)
+- [Level 2 — feed setup](level-2/l2-feed-setup/index.md)
+- [Level 2 — login and register](level-2/l2-login-register/index.md)
 
 ## Cross-links to product docs
 

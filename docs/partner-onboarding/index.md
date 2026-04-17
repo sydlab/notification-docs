@@ -11,7 +11,7 @@ Documents how a partner onboards onto the notification system.
 
 ## Diagrams
 
-Link level-specific flows from [Technical flows overview](../technical-flows/index.md) as they are authored (for example the onboarding sequence under [level 2](../technical-flows/level-2/l2-onboarding-sequence.md)).
+Link level-specific flows from [Technical flows overview](../technical-flows/index.md) as they are authored (for example the onboarding sequence under [level 2](../technical-flows/level-2/l2-onboarding-sequence/index.md)).
 
 ### Placeholder context (inline Mermaid)
 

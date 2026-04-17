@@ -14,7 +14,7 @@ Registration may coincide with or precede full **partner onboarding**; clarify w
 
 ## Diagrams
 
-Auth and session flows appear under [level 2 sequences](../technical-flows/level-2/l2-login-register.md) when ready.
+Auth and session flows appear under [level 2 sequences](../technical-flows/level-2/l2-login-register/index.md) when ready.
 
 ### Placeholder (inline Mermaid)
 
